@@ -16,6 +16,8 @@ diary/
    ├─ SYSTEM_ARCHITECTURE.md   # 系統整體架構
    ├─ BATCH_API_UI_MAPPING.md  # 批次、API 與畫面對照
    ├─ TROUBLESHOOTING_GUIDE.md # 問題排查流程
+   ├─ SITE_METER_AND_BATCH_TEST_GUIDE.md # 電表判讀與控制測試
+   ├─ CONTROL_INTERLOCK_AND_CALIBRATION_GUIDE.md # ACB、排程互鎖與校正
    └─ EMS_BATCH_OVERVIEW.md  # 完整批次程式盤點
 ```
 
@@ -36,6 +38,7 @@ diary/
 - 建議分成：今日摘要、程式／系統、環境建置、硬體測試、待辦。
 - 測試設備時，盡量記錄「測試條件、設定值、實際值、結果」。
 - 尚未確認的內容標記為「待確認」，不要直接寫成已完成。
+- 當天若新增或更新系統文件，需在同一天日誌列出文件名稱、用途與連結。（← 0817 新增）
 
 ### 系統文件
 
@@ -63,4 +66,6 @@ diary/
 - [系統整體架構](./02_系統文件/SYSTEM_ARCHITECTURE.md)
 - [批次、API 與畫面對照](./02_系統文件/BATCH_API_UI_MAPPING.md)
 - [問題排查流程](./02_系統文件/TROUBLESHOOTING_GUIDE.md)
+- [案場電表判讀與控制批次測試指南](./02_系統文件/SITE_METER_AND_BATCH_TEST_GUIDE.md)（← 0817 新增）
+- [ACB 操作、排程互鎖與 SOC 校正保護](./02_系統文件/CONTROL_INTERLOCK_AND_CALIBRATION_GUIDE.md)（← 0818 新增）
 - [完整批次程式盤點](./02_系統文件/EMS_BATCH_OVERVIEW.md)
